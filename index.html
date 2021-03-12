@@ -6,6 +6,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>gadaleta dot net</title>
 <link href="https://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
     <!-- css -->
     <link rel="stylesheet" href="eclipse.css?v3"></link>
@@ -17,11 +18,73 @@
 </head>
 <body>
 
+
+<!-- Image and text -->
+<!-- <nav class="navbar navbar-light bg-light">
+    <a class="navbar-brand" href="#">
+      <img src="/docs/4.0/assets/brand/bootstrap-solid.svg" width="30" height="30" class="d-inline-block align-top" alt="">
+      Bootstrap
+    </a>
+  </nav> -->
+
+
+  <!-- As a heading -->
+<!-- <nav class="navbar navbar-static-top navbar-light bg-light"> -->
+<nav class="navbar navbar-default fixed-top navbar-light bg-light">
+
+    <!-- <div class="container-fluid">
+      <span class="navbar-brand mb-0 h1">Francesco Gadaleta</span>
+    </div> -->
+
+    <div class="container">
+        <a class="navbar-brand" href="#">
+          <img
+            src="images/fg-logo.png"
+            height="32"
+            width="32"
+            alt=""
+            loading="lazy"
+          />
+        </a>
+        <span class="navbar-brand mb-0 h1"></span>
+
+      </div>
+
+  </nav>
+
+
+<!-- Top Navigation Menu -->
+    <!-- <div class="topnav">
+    <div class="page">
+        <p class="left strong">
+        Francesco Gadaleta</p>
+    </div>
+    <div id="myLinks">
+      <a href="#news">News</a>
+      <a href="#contact">Contact</a>
+      <a href="#about">About</a>
+    </div>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div> -->
+
+
+<!--
+    <div class="menu clearfix">
+        <div class="page">
+        <p class="left strong">Francesco Gadaleta</p>
+        <a href="http://gadaleta.net/table-of-contents/" class="right">
+            <span class="ss-icon">rows</span></a>
+        </div>
+        </div>
+-->
+
     <div id="jquery-script-menuXX">
         <div class="jquery-script-centerXX">
 
             <!-- <a href="http://gadaleta.net/#" class="home">
-                <span class="logo">fg</span>
+                <span class="logo"></span>
             </a> -->
 
 <!-- <ul>
@@ -36,6 +99,17 @@
         google_ad_width = 1028;
         google_ad_height = 90;
         //-->
+
+        /* Toggle between showing and hiding the navigation menu links when the user clicks on the hamburger menu / bar icon */
+function myFunction() {
+  var x = document.getElementById("myLinks");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
+
 </script>
 <!-- <script type="text/javascript" src="https://pagead2.googlesyndication.com/pagead/show_ads.js"></script> -->
 </div>
@@ -75,8 +149,8 @@
                                 <div>
                                     <div class="page">
                                         <h2>
-                                            My job is to design safe, robust and scalable algorithms that solve problems for humans with computers and
-                                            internet services. <br />That's why I founded <a href="https://amethix.com" target="blank"> Amethix</a>
+                                            My job is to design safe, robust and scalable algorithms that solve problems for humans. <br />
+                                            That's why I founded <a href="https://amethix.com" target="blank"> Amethix</a>
                                         </h2>
                                         </div>
                                     </div>
@@ -160,22 +234,29 @@
             <header id="header">
                 <nav>
                     <ul>
+                        <li><a href="https://www.linkedin.com/in/fragadaleta/" class="icon brands fa-linkedin" target="blank"><span class="label">Github</span></a></li>
                         <li><a href="https://twitter.com/thisisfrag" class="icon brands fa-twitter" target="blank"><span class="label">Twitter</span></a></li>
-                        <!-- <li><a href="https://amethix.com" class="icon brands fa-website"><span class="label">Amethix</span></a></li> -->
-                        <!-- <li><a href="#" class="icon brands fa-dribbble"><span class="label">Dribbble</span></a></li> -->
+                        <li><a href="https://podcasts.apple.com/us/podcast/data-science-at-home/id1069871378" class="icon brands fa-apple"><span class="label">Podcast</span></a></li>
                         <li><a href="https://open.spotify.com/show/57AJ6GiMDPVBLGRqvjeoz6" class="icon brands fa-spotify" target="blank"><span class="label">Spotify</span></a></li>
-                        <li><a href="https://frag.medium.com/" class="icon brands fa-medium" target="blank"><span class="label" >Medium</span></a></li>
-                        <li><a href="https://instagram.com/fragadaleta" class="icon brands fa-instagram" target="blank"><span class="label">Instagram</span></a></li>
+                        <!-- <li><a href="https://frag.medium.com/" class="icon brands fa-medium" target="blank"><span class="label" >Medium</span></a></li> -->
+                        <!-- <li><a href="https://instagram.com/fragadaleta" class="icon brands fa-instagram" target="blank"><span class="label">Instagram</span></a></li> -->
                         <li><a href="https://github.com/fgadaleta" class="icon brands fa-github" target="blank"><span class="label">Github</span></a></li>
                         <li><a href="mailto: francesco@gadaleta.net" class="icon solid fa-envelope" target="blank"><span class="label">Email</span></a></li>
-
                     </ul>
                 </nav>
                 </header>
 
-            <div class="footer-text">
+            <!-- <div class="footer-text">
                 &copy; 2021 All Right Reserved gadaleta.net &bull; Designed by <a href="https://amethix.com">Amethix Technologies</a>
-            </div>
+            </div> -->
+
+            <nav class="navbar fixed-bottom navbar-light">
+                <div class="footer-text navbar-brand1">
+                    &copy; 2021 All Right Reserved gadaleta.net &bull; Designed by <a href="https://amethix.com">Amethix Technologies</a>
+                </div>
+
+              </nav>
+
         </div>
 </div>
 </body>
@@ -193,4 +274,8 @@
   })();
 
 </script>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
 </html>
